@@ -1,8 +1,8 @@
 {
-  "name": "vue-autoscroll",
+  "name": " vue plugin",
   "version": "1.0.0",
-  "description": "A vue js directive to scroll anywhere on a container",
-  "main": "src/vueAutoscroll.js",
+  "description": "",
+  "main": "src/index.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "prod": "cross-env NODE_ENV=production webpack",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/donmbelembe/vue-autoscroll.git"
+    "url": ""
   },
   "keywords": [
     "vue"
@@ -18,9 +18,9 @@
   "author": "Don mbelembe",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/donmbelembe/vue-autoscroll/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/donmbelembe/vue-autoscroll#readme",
+  "homepage": "",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
