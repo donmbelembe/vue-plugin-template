@@ -6,7 +6,8 @@ const webpack = require('webpack')
 
 // Config object
 const library = {
-  name: 'VueAutoscroll',
+  name: '',
+  output: '',
   target: 'umd'
 }
 
@@ -19,7 +20,7 @@ let webpackConfig = {
     library: library.name,
     libraryTarget: library.target,
     path: path.resolve(__dirname, "dist"),
-    filename: (DEV) ? 'autoscroll.js' : 'autoscroll.min.js',
+    filename: (DEV) ? library.output + '.js' : library.output + '.min.js',
     publicPath: '/dist/'
   },
   devtool: DEV ? 'cheap-module-eval-source-map' : 'source-map',
